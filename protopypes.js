@@ -18,3 +18,12 @@ Car.prototype.moveRight = function () {
 				top: this.y
 			})
 		}
+
+		Car.prototype.moveUp = function () {
+			this.y -= this.speed;
+
+			this.carElement.css({
+				left: this.x,
+				top: this.y
+			})
+		}
