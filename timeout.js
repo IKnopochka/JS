@@ -12,3 +12,7 @@
 			alert("Timeout!");
 		}
 		setTimeout(timeUp, 3000);
+
+		var clickHadler = function(event) {
+			console.log("Click!!" + event.pageX + " " + event.pageY);
+		}
