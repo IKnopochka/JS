@@ -39,3 +39,11 @@ for (let i = 0; i < 10; i++) {
 	arr.push(Math.random().toFixed(2));
 }
 console.log(arr);
+
+//Заполните массив 10-ю случайными числами от 1 до 10 с помощью цикла.
+
+const arr = [];
+for (let i = 0; i < 10; i++) {
+	arr.push(Math.floor(Math.random() * 10) + 1);
+}
+console.log(arr);
