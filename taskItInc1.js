@@ -15,3 +15,11 @@ for (let i = 100; i > 0; i--) {
 for ( let i = 2; i <= 100; i += 2 ) {
 	console.log(i);
 }
+
+//Заполните массив 10-ю иксами с помощью цикла.
+
+const arr = [];
+for (let i = 0; i < 10; i++) {
+	arr[i] = "x"
+}
+console.log(arr);
