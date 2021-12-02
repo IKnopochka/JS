@@ -47,3 +47,13 @@ for (let i = 0; i < 10; i++) {
 	arr.push(Math.floor(Math.random() * 10) + 1);
 }
 console.log(arr);
+
+//Дан массив с числами. С помощью цикла выведите только те элементы массива, которые больше нуля и меньше 10-ти.
+
+const arr = [1, 5,24,435,3,64]
+
+for (let i = 0; i < arr.length; i++) {
+	if (arr[i] > 0 && arr[i] < 10) {
+		console.log(arr[i])
+	}
+}
