@@ -96,21 +96,17 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log(result)
 
+//Дан массив с числами. Найдите среднее арифметическое его элементов (сумма элементов, делить на количество).
+
+const arr = [1, 5,24,435,3,64];
+let result = 0;
 
 
+for (let i = 0; i < arr.length; i++) {
+	result += arr[i];
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(result / arr.length);
 
 
 
