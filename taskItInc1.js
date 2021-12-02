@@ -31,3 +31,11 @@ for (let i = 0; i < 10; i++) {
 	arr.push(i + 1);
 }
 console.log(arr);
+
+//Заполните массив 10-ю случайными числами (дробями) от 0 до 1 с помощью цикла. Дроби округляйте до двух знаков в дробной части.
+
+const arr = [];
+for (let i = 0; i < 10; i++) {
+	arr.push(Math.random().toFixed(2));
+}
+console.log(arr);
