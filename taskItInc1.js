@@ -20,6 +20,14 @@ for ( let i = 2; i <= 100; i += 2 ) {
 
 const arr = [];
 for (let i = 0; i < 10; i++) {
-	arr[i] = "x"
+	arr[i] = "x";
+}
+console.log(arr);
+
+//Заполните массив числами от 1 до 10 с помощью цикла.
+
+const arr = [];
+for (let i = 0; i < 10; i++) {
+	arr.push(i + 1);
 }
 console.log(arr);
